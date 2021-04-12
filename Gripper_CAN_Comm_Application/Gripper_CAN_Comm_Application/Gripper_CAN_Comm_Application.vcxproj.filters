@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\CAN">
+      <UniqueIdentifier>{30896bea-e61c-40f7-8c7e-4d578bc79cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CAN\CANOPEN">
+      <UniqueIdentifier>{da95cdde-34a3-42fe-900c-ff401a9e44e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CAN\Command">
+      <UniqueIdentifier>{39f1a48d-6c9d-49c7-bac5-a5366ffc8371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CAN\IXXAT">
+      <UniqueIdentifier>{94486f00-3c54-472d-8e0b-afb89c576428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CAN\Thread">
+      <UniqueIdentifier>{c54a1675-f93c-4d7a-81f9-08fa6ad7d65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CAN\Thread\timer">
+      <UniqueIdentifier>{2b437d01-d22b-49dd-96f5-286a12c799ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="can_comm_basic.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="can_comm_basicDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenDef.h">
+      <Filter>소스 파일\CAN\CANOPEN</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenInterface.h">
+      <Filter>소스 파일\CAN\CANOPEN</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenRead.h">
+      <Filter>소스 파일\CAN\CANOPEN</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenDsp402.h">
+      <Filter>소스 파일\CAN\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CanRobotroDef.h">
+      <Filter>소스 파일\CAN\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenComm.h">
+      <Filter>소스 파일\CAN\IXXAT</Filter>
+    </ClInclude>
+    <ClInclude Include="FreqTime.h">
+      <Filter>소스 파일\CAN\Thread\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskInterface.h">
+      <Filter>소스 파일\CAN\Thread\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadTask.h">
+      <Filter>소스 파일\CAN\Thread\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenStatusTask.h">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleoperationCanOpenStatus.h">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleoperationCanOpenTask.h">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="CanOpenCheckTask.h">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="can_comm_basic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="can_comm_basicDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CanOpenInterface.cpp">
+      <Filter>소스 파일\CAN\CANOPEN</Filter>
+    </ClCompile>
+    <ClCompile Include="CanOpenRead.cpp">
+      <Filter>소스 파일\CAN\CANOPEN</Filter>
+    </ClCompile>
+    <ClCompile Include="CanOpenDsp402.cpp">
+      <Filter>소스 파일\CAN\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="CanOpenComm.cpp">
+      <Filter>소스 파일\CAN\IXXAT</Filter>
+    </ClCompile>
+    <ClCompile Include="FreqTime.cpp">
+      <Filter>소스 파일\CAN\Thread\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskInterface.cpp">
+      <Filter>소스 파일\CAN\Thread\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTask.cpp">
+      <Filter>소스 파일\CAN\Thread\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CanOpenStatusTask.cpp">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleoperationCanOpenStatus.cpp">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleoperationCanOpenTask.cpp">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CanOpenCheckTask.cpp">
+      <Filter>소스 파일\CAN\Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="can_comm_basic.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\can_comm_basic.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\can_comm_basic.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
